@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "premclient",
+  "version": "${version}",
+  "name": "PREM Client",
+  "description": "Simple liquid-glass PvP client by _prem_king_72: FPS, CPS, keystrokes, coords, armor HUD and a touch-friendly menu.",
+  "authors": ["_prem_king_72"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.premclient.PremClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
